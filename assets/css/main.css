@@ -1,0 +1,93 @@
+/* 
+    Author : Fredchess
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Utils */
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* Header */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 82px 250px;
+    text-align: center;
+}
+
+.logo-link {
+    color: #E35A5A;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navbar .links {
+    margin: auto 0;
+}
+
+.navbar .links .link {
+    margin: 0 30px;
+    color: #898989;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+/* Section 1 */
+
+.section-1 {
+    margin: 0 250px;
+    display: flex;
+}
+
+.section-1 .left {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.section-1 .right {margin-left: 20px; width: 50%;}
+
+.section-1 .left .title span, .section-1 .right .title span {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #454545;
+    font-size: 24px;
+    line-height: 82px;
+}
+
+.section-1 .right .item {
+    display: flex;
+    margin-bottom: 51px;
+}
+
+.section-1 .right .item .image {
+    margin-right: 27px;
+}
+
+.section-1 .right .item .text .category {
+    font-size: 13px;
+    color: #828282;
+    font-weight: 600;
+}
+
+.section-1 .right .item .text .title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
